@@ -1,0 +1,95 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-image: url(images/background.jpg);
+  /*background-position: center;*/
+
+
+  /*background-color: #5f6caf;*/
+  color: black;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+}
+
+.top-container{
+  position: relative;
+}
+
+.middle-container{
+  margin: 100px auto;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bottom-container{
+  position: relative;
+  margin: auto;
+  clear:both; /*stops bottom container from getting caught in the float command*/
+}
+
+.huddle-head{
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.huddle-text{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.black{
+  color: black;
+}
+
+.photo{
+  width:47.5%;
+  float: left;
+
+}
+
+.build{
+  width: 47.5%;
+  text-align: left;
+  float: right;
+}
+
+.social-icons{
+  text-align: right;
+  padding-right: 100px;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background-color:gray;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+
+.myButton:hover {
+	background-color:#408c99;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.icons{
+  font-size: 0.5rem;
+}
