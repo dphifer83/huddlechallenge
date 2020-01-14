@@ -85,3 +85,7 @@ padding: 1rem 6.25rem .5rem 6.35rem;
 .icons{
   font-size: 0.5rem;
 }
+
+.centerMe{
+  text-align: center;
+}
