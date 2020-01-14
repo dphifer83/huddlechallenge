@@ -1,12 +1,11 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-image: url(images/background.jpg);
-  /*background-position: center;*/
-
-
+  background-image: url(images/background.jpg); /*****set background image****/
+  background-attachment: fixed; /********stop image from repeating*****/
   /*background-color: #5f6caf;*/
   color: black;
+  background-position: center;
 }
 
 h1{
@@ -18,15 +17,8 @@ a{
   text-decoration: none;
 }
 
-.top-container{
-  position: relative;
-}
-
 .middle-container{
-  margin: 100px auto;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+padding: 1rem 6.25rem .5rem 6.35rem;
 }
 
 .bottom-container{
@@ -38,38 +30,38 @@ a{
 .huddle-head{
   display: inline-block;
   padding-left: 50px;
+  margin-top: 1.5rem;
 }
 
 .huddle-text{
   display: inline-block;
   margin-left: 5px;
+  margin-top: 1.5rem;
 }
 
 .black{
   color: black;
 }
 
-.photo{
-  width:47.5%;
-  float: left;
-
+.box{
+  display: block;
 }
 
-.build{
-  width: 47.5%;
+.community{
+  width: 50%;
   text-align: left;
-  float: right;
+  float:right;
 }
 
 .social-icons{
   text-align: right;
-  padding-right: 100px;
+  padding-right: 6.25rem;
 }
 
 .myButton {
 	box-shadow: 0 10px 14px -7px #276873;
-	background-color:gray;
-	border-radius:8px;
+	background-color:lightslategray;
+	border-radius:28px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
